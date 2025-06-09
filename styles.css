@@ -1,0 +1,83 @@
+/* 
+meed to set a root color system up
+*/
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+      font-family: 'Segoe UI', sans-serif;
+      color: #333;
+      padding: 2rem;
+      line-height: 1.6;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+     background: linear-gradient(
+        to top left,
+        #fff9c4 10%,
+        #ffd54f 40%,
+        #ffb74d 70%,
+        #ff8f00 100%
+     );
+    }
+/* img{
+    width:500px;
+} */
+h1 {
+      color: #be0606;
+    }
+h2 {
+    color: #e05d11ec;
+    }
+h3{
+    color: #e09e11f6;
+    }
+ul {
+      list-style: none;
+      padding-left: 1.5rem;
+    }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9em;
+      color: #666;
+    }
+
+.note {
+      font-style: italic;
+      background: #fff3cd;
+      border-left: 4px solid #ffc107;
+      padding: 1rem;
+      margin: 2rem 0;
+    }
+
+
+.paragraphFormatting{
+    margin-top:25px;
+     color:rgba(46,46,46,1);
+    text-shadow:2px 2px 5px rgba(0,0,0,0.3);
+}
+/* .imageContainer{
+    position:relative;
+    display:inline-block; 
+} */
+img{
+    /* display:block; */
+    width: 750px;
+    /* max-width: 100%; */
+    /* height: auto; */
+}
+
+/* .textOverlay{
+position:absolute;
+top:150px;
+left: 50%;
+transform: translateX(-50%);
+pointer-events: none;
+} */
